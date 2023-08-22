@@ -1,0 +1,268 @@
+/* container principal */
+.container{
+    max-width: 1200px;
+    margin: 0 auto; 
+}
+/* menu     */
+.menu{
+    width: 100%;
+    height: 70px;
+    background: #ffffff;
+    box-shadow: 0px 4px 30px -10px rgba(0, 0, 0, 0.1); 
+    display: flex;
+    justify-content: space-between;  
+    align-items: center;
+}
+
+.menu-list{
+    display: flex;
+    list-style: none;
+    gap: 10px; 
+}
+
+
+.menu-list li a {
+    text-decoration: none;
+    color: #828282;;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.menu-list li a:hover {
+    /* color: #37268C; */
+    color: #333333;
+    font-weight: 600;
+}
+
+.container-main{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+/* tira sublinhado de link */
+.container-main a{
+    text-decoration:none;
+}
+
+.container-main a:hover{
+    text-decoration:underline;
+}
+
+/* pesquisa e carrinho de compras  */
+.pesquisa {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.pesquisa input {
+    width: 214px;
+    height: 44px;
+}
+.pesquisar-button{
+    width: 95px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #37268C;
+    color: white;
+    border: 2px transparent;
+}
+.pesquisar-button:hover{
+    background-color: #2E245E;
+}
+
+.carrinho {
+    margin-top: 20px;
+    width: 317px;
+    height: 50px;
+    background-color: #37268C;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.section-search-cart {
+    display: flex;
+    flex-direction: column;
+    margin-top: 35px;
+    margin-left: 20px;
+    height: 617px;
+    background-color: #FDFDFD;
+}
+/* container dos produtos do carrinho */
+.produtos-carrinho {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #F5F5F5;
+    overflow-y: auto;
+    transform: translate(0, -16px);
+}
+/* cards do carrinho */
+.produtos-carrinho li {
+    width: 150px;
+    height: 140px;
+    display: flex;
+    justify-content: center;
+}
+.produtos-carrinho li img {
+    width: 70px;
+}
+
+.produtos-carrinho li main {
+    height: 100px;
+    width: 200px;
+    background-color: #F5F5F5;
+    padding-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.produtos-carrinho li main a {
+        width: 170px;
+        font-size: 15px;
+        color: #333333;
+        margin-right: 86px;
+}
+.produtos-carrinho li main strong {
+    color: #2E245E;
+}
+
+.finaliza-cart {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* background-color: #333333; */
+    color: white;
+    height: 100px;
+    transform: translate(0, -32px);
+}
+
+.finaliza-cart p{
+    line-height: 26px;
+    text-align: end;
+}
+
+
+
+
+/* vitrine de produtos */
+.products-section {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    padding: 48px 0;
+}
+  
+/* ul da vitrine de produtos */
+.list-content{
+    margin-top: 35px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 14px;
+    list-style: none;
+    transform: translate(-40px, 0);
+}
+/* li dos produtos   */
+.product {
+    max-width: 24%;
+    height: 370px;
+    width: 200px;
+    padding: 26px;
+    background: #ffffff;
+    box-shadow: 0px 4px 40px -20px rgba(0, 0, 0, 0.25);
+    list-style-type: none;
+    border: 2px solid rgb(255, 255, 255);
+}
+
+.product:hover{
+    border: 2px solid #37268C;
+}
+/* imagem dos cards   */
+.product .product-img {
+    max-width: 100%;
+}
+  
+.product .product-main {
+    display: flex;
+    flex-direction: column;
+}
+
+.product .product-main h4 {
+    background-color: #37268C;
+    color: white;
+    width: 114px;
+    line-height: 20px;
+} 
+
+.product .product-main h2 {
+    font-size: 24px;
+    line-height: 2px;
+}
+  
+.product .product-main p {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16px;
+}
+.product .product-main a {
+    color:#333333;
+    line-height: 16px;
+}
+  
+.product .product-main strong {
+    font-size: 16px;
+    font-weight: 600;
+    padding-bottom: 15px;
+    color: #2E245E;
+}
+
+h1 {
+    font-size: 28px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h2 {
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h3 {
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif; 
+}
+
+h4{
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+p {
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+a{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* carrinho de compras sem produto */
+/* .carrinho-vazio-texto{ */
+    /* background-color: #F5F5F5; */
+    /* text-align: center; */
+    /* display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-right: 40px;
+    padding-top: 50px;
+    height: 150px;
+    transform: translate(0px, -16px);
+    line-height: 1px; */
+/* } */
+/* além de trocar a class vai ser necessário inserir um texto pelo DOM */
+
+.none{
+    display: none;
+}

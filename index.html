@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body class="container">
+    <header class="menu">
+        <figure>
+            <!-- logo -->
+            <h1>Weartake</h1>           
+        </figure>
+        <!-- menu -->
+        <ul class="menu-list">
+            <li><a href="">Todos</a></li>
+            <li><a href="">Acessórios</a></li>
+            <li><a href="">Calçados</a></li>
+            <li><a href="">Camisetas</a></li>
+        </ul>
+    </header>
+    <main class="container-main">
+        <section class="prudcts-section">
+                <!-- produtos da vitrine -->
+                <ul class="list-content">
+      
+
+                </ul>
+        </section>
+        <section class="section-search-cart">
+            <form class="pesquisa">
+                <!-- campo de pesquisa -->
+                <input class="filtro" type="text" placeholder="Digite aqui sua pesquisa" name="text" required="true">
+                <button class ="pesquisar-button" type="submit" class="pesquisar-button">Pesquisar</button>
+            </form>
+                <!-- carrinho de compras -->
+                <div class="carrinho">
+                    <h3>Carrinho de compras</h3>
+                </div>
+
+                <ul class="produtos-carrinho">
+            
+
+                </ul> 
+                <!-- quantidade de produtos no carrinho -->
+                <div class="finaliza-cart">     
+                    <div>
+                        <h4 id="quant"></h4>
+                        <h4 id="total"></h4>
+                    </div>
+                    <div>
+                        <p id="cartQuantidade"></p>
+                        <p id="cartTotal"></p>
+                    </div>
+                </div>
+        </section>
+
+    </main>
+    <script src="/js/database.js"></script>
+    <script src="/js/index.js"></script>
+</body>
+</html>
