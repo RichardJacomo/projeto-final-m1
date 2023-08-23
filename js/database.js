@@ -1,5 +1,3 @@
-// Banco de dados dos produtos
-
 const data = [
   {
     id: 1,
@@ -46,7 +44,7 @@ const data = [
     img: "../img/camiseta_branca.svg",
     nameItem: "T-Shirt",
     description:
-      "Agora você encontrou a camiseta básica do seu guarda-roupa. É feito de um...",
+      "Agora você encontrou a camiseta básica do seu guarda-roupa. É feito de um excelente...",
     value: 100,
     addCart: "Adicionar ao carrinho",
     tag: "Camisetas",
